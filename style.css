@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+header {
+	display: flex;
+	background-color: tomato;
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+}
+nav a {
+	text-decoration: none;
+	padding: 15px;
+	text-transform: uppercase;
+	color: whitesmoke;
+}
+
+/* section one Started */
+
+section {
+	height: 500px;
+	padding-bottom: 100px;
+}
+
+.top-banner {
+	background: url(/images/top-banner.png);
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 50px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+p {
+	padding: 15px 0;
+}
+.highlighted-text {
+	color: orange;
+}
+
+.half-width,
+.ex-half-width {
+	width: 40%;
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding-left: 2%;
+}
+
+.half-width img {
+	width: 600px;
+}
+.half-width,
+.ex-half-width p {
+	color: dimgray;
+	padding-bottom: 20px;
+}
+.link-button {
+	text-decoration: none;
+	background-image: linear-gradient(lightSalmon, tomato);
+	border: none;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 5px;
+}
+
+/* section one finished */
+
+/* section two Started */
+
+.top-banner2 {
+	background: url(/images/dream-bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+/* section two finished */
+
+/* section three Started */
+.experience-section {
+	background: url(/images/exp-bg.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.ex-half-width {
+	padding: 30px;
+	box-shadow: 10px 10px 40px gray;
+	border-radius: 10px;
+	height: 50%;
+	background-color: white;
+}
+.ex-half-width h2 {
+	padding: 10px 0;
+}
+.ex-half-width h3 {
+	color: orange;
+}
+
+#full-stack {
+	border-left: 7px solid;
+	border-image: linear-gradient(180deg, lightSalmon, tomato);
+	border-image-slice: 1;
+}
+#baby-dev {
+	border-left: 7px solid;
+	border-image: linear-gradient(180deg, skyblue, blue);
+	border-image-slice: 1;
+}
+
+/* section three finished */
+
+footer {
+	text-align: center;
+}
